@@ -34,6 +34,7 @@ final class DeadHostState implements Comparable<DeadHostState> {
     private final int failedAttempts;
     private final long deadUntilNanos;
     private final TimeSupplier timeSupplier;
+    
 
     /**
      * Build the initial dead state of a host. Useful when a working host stops functioning
