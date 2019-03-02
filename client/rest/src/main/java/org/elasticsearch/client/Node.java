@@ -33,6 +33,7 @@ public class Node {
     /**
      * Address that this host claims is its primary contact point.
      */
+    
     private final HttpHost host;
     /**
      * Addresses on which the host is listening. These are useful to have
