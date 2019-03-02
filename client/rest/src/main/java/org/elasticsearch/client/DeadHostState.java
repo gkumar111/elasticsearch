@@ -35,7 +35,6 @@ final class DeadHostState implements Comparable<DeadHostState> {
     private final long deadUntilNanos;
     private final TimeSupplier timeSupplier;
     
-
     /**
      * Build the initial dead state of a host. Useful when a working host stops functioning
      * and needs to be marked dead after its first failure. In such case the host will be retried after a minute or so.
